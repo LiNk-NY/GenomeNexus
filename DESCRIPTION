@@ -1,0 +1,17 @@
+Package: GenomeNexus
+Title: Expose the GenomeNexus API as an R package
+Version: 0.0.0.9000
+Authors@R: 
+    person("Marcel", "Ramos", , "marcel.ramos@sph.cuny.edu", c("aut", "cre"),
+           comment = c(ORCID = "0000-0002-3242-0582"))
+Description: This package provides an R interface to the GenomeNexus API.
+  GenomeNexus is a web application that annotates cancer variants with
+  information from multiple databases. The GenomeNexus API provides programmatic
+  access to the data and annotations available in the GenomeNexus web
+  application.
+License: Artistic-2.0
+Depends: AnVIL
+Imports: methods
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
